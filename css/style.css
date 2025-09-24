@@ -17,7 +17,7 @@ header, footer {
 
 h1, h2, h3 {
     text-align: center;
-    color: #7b3f00;
+    color: #5a2e00;
 }
 
 /* Content Container */
@@ -56,4 +56,9 @@ footer a {
     margin: auto;
     border: 3px solid #7b3f00;
     border-radius: 6px;
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
 }
