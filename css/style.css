@@ -54,7 +54,7 @@ section {
 
 /* Footer Links */
 footer a {
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
@@ -66,6 +66,6 @@ footer a {
 }
 @media (max-width: 600px) {
   body {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
