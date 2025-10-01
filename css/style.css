@@ -20,37 +20,12 @@ h1, h2, h3 {
     color: #5a2e00;
 }
 
-/* Content Container */
-.content-container {
-    max-width: 900px;
-    margin: auto;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
 /* Section Styling */
 section {
     background: rgb(255, 245, 225);
     padding: 1rem;
     border-radius: 8px;
 }
-
-/* Flexbox Layout */
-.flex-section {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: space-between;
-}
-
- @media (max-width: 600px) {
-        .flex-container {
-          flex-direction: column;
-          align-items: center;
-        }
-      }
 
 /* Footer Links */
 footer a {
@@ -64,8 +39,8 @@ footer a {
     border: 3px solid #7b3f00;
     border-radius: 6px;
 }
-@media (max-width: 600px) {
-  body {
-    font-size: 12px;
-  }
+
+.header-lead {
+  color: #5a2e00;
+  font-weight: bold;
 }
